@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Todo List</title>
 </head>
 <body>
-    <h1>TODO LIST</h1>
+    <header>
+        <h1>TODO LIST</h1>
+        <p>Your to-do list is not just a list. It's a roadmap to your success. Each task is a step forward; each completed task brings you closer to your goals. Embrace the journey, and conquer your list one task at a time</p>
+    </header>
+
     <input type="text" id="taskInput" placeholder="Enter task">
     <button id="addTaskBtn">Add Task</button>
-    <ul id="taskList"></ul>
+    <div id="container">
+        <ul id="taskList"></ul>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
